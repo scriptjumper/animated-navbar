@@ -73,3 +73,11 @@ main {
   min-width: 2rem;
   margin: 0 1.5rem;
 }
+
+.navbar:hover {
+  width: 16rem;
+}
+
+.navbar:hover .link-text {
+  display: block;
+}
