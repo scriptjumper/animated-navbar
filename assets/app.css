@@ -109,6 +109,7 @@ main {
 
 .logo svg {
   transform: rotate(0deg);
+  transition: var(--transition-speed);
 }
 
 .logo-text {
@@ -156,7 +157,7 @@ main {
   }
 
   .navbar:hover {
-    width: 16rem;
+    width: 18rem;
   }
 
   .navbar:hover .link-text {
@@ -164,7 +165,7 @@ main {
   }
 
   .navbar:hover .logo svg {
-    margin-left: 11rem;
+    margin-left: 14.5rem;
   }
 
   .navbar:hover .logo-text {
