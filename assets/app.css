@@ -125,3 +125,11 @@ main {
 .navbar:hover .logo svg {
   transform: rotate(-180deg);
 }
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+}
