@@ -5,6 +5,7 @@
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
+  --transition-speed: 600ms;
 }
 
 body {
@@ -23,7 +24,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  background: #33ff44;
 }
 
 main {
@@ -81,4 +82,17 @@ main {
 
 .navbar:hover .link-text {
   display: block;
+}
+
+.fa-primary {
+  color: #33ff44;
+}
+
+.fa-secondary {
+  color: #4e77ff;
+}
+
+.fa-primary,
+.fa-secondary {
+  transition: var(--transition-speed);
 }
