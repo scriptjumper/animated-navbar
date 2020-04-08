@@ -6,6 +6,8 @@
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
+  --fa-primary: #33ff44;
+  --fa-secondary: #4e77ff;
 }
 
 body {
@@ -24,7 +26,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #33ff44;
+  background: var(--fa-primary);
 }
 
 main {
@@ -83,11 +85,11 @@ main {
 }
 
 .fa-primary {
-  color: #33ff44;
+  color: var(--fa-primary);
 }
 
 .fa-secondary {
-  color: #4e77ff;
+  color: var(--fa-secondary);
 }
 
 .fa-primary,
